@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("/src/variables.css");
+
+.letterSender {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--accent100);
+  border-radius: var(--radius-sm);
+  padding: 16px 0px 20px 16px;
+}
+
+.senderImageContainer {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--accent100);
+  overflow: hidden;
+  margin-right: 16px;
+}
+
+.senderImageContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.senderText {
+  line-height: 18px;
+}
+
+.senderPoreklo {
+  font-size: var(--font-size-xs);
+}
+
+.senderPosada {
+  font-size: 10px;
+}
+
+.m0 {
+  margin: 0;
+}

@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("/src/variables.css");
+
+.emailTemplateLink {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  text-align: center;
+  font-family: var(--font-family);
+}
+.linkChortHub,
+.linkRegistration {
+  padding: 7px 20px;
+  border: 1px solid var(--brand500);
+  border-radius: 100px;
+  background: linear-gradient(81.25deg, #2a257d -14.65%, #cd1d1d 71.16%);
+  font-weight: 600;
+  font-size: var(--font-size-xs);
+  line-height: 18px;
+  color: var(--grey50);
+  text-decoration: none;
+}

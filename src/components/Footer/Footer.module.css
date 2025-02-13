@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+@import url("/src/variables.css");
+
+.emailTemplateFooter {
+  margin: 20px 0;
+  text-align: center;
+  border-top: 1px solid var(--accent100);
+  padding: 25px;
+}
+.footerLogo {
+  width: 32px;
+}
+.footerText {
+  font-size: var(--font-size-xxs);
+  line-height: var(--line-height-xxs);
+  color: var(--grey400);
+}
+.m0 {
+  margin: 0;
+}
