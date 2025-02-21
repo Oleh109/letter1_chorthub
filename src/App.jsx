@@ -1,17 +1,15 @@
 import Header from "./components/Header/Header";
-import Main from "./components/Main/Main";
+import LetterMain_1 from "./components/LetterMain_1/LetterMain_1";
 import Link from "./components/Link/Link";
 import Footer from "./components/Footer/Footer";
 
-function App() {
-  return (
-    <div class="email-template-container">
-      <Header />
-      <Main />
-      <Link />
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <div class="email-template-container">
+    <Header />
+    <LetterMain_1 />
+    <Link />
+    <Footer />
+  </div>
+);
 
 export default App;
